@@ -1,5 +1,5 @@
 # SlumberBot
-In the project SlumberBot, I used this backend to hardly control the chatbot conversation. The chatbot is built in Google Dialogflow and intergrated into the Facebook Messenger.
+In the .zip slumberbot there is a python backend for the SlumberBot project. I used this backend to hardly control the chatbot conversation. The chatbot is built in Google Dialogflow and intergrated into the Facebook Messenger.
 
 
 ## Main Functions
@@ -27,3 +27,11 @@ Then you can run the code by typing "flask run".
 
 ## Ngrok
 To publish your local environment to the public for webhook, you can try ngrok. You may find a clear tutorial here: https://medium.com/@antonyharfield/dialogflow-web-hooks-how-to-develop-locally-and-deploy-to-cloud-functions-48839919e998
+
+# Others
+## Dialogflow Codes
+In .zip Dialogflow there are all the intent used in this chatbot. I downloaded them as JSON file for further use.
+
+## Web Report
+The web report is a web page that provided to the users at the end of the chatbot conversation. I wrote some javascript codes to read the data from Data Foundry and visualize the data.
+
